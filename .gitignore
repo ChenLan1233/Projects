@@ -1,0 +1,7 @@
+# Build outputs
+bin/
+build/
+
+# Binaries
+sensor
+sensor_test
