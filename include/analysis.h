@@ -12,6 +12,6 @@ float getMaxValue(SensorData *array, int count, GetValueFunc getValue);
 float getMinValue(SensorData *array, int count, GetValueFunc getValue);
 float getAverageValue(SensorData *array, int count, GetValueFunc getValue);
 void sortData(SensorData *data, int count, GetValueFunc getvalue, int ascending);
-void filterData(SensorData *data, int count, GetValueFunc getValue, float threshold, int greater, SensorData *dest);
+int filterData(SensorData *data, int count, GetValueFunc getValue, float threshold, int greater, SensorData *dest);
 
 #endif
